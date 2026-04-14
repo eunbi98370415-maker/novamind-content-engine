@@ -160,13 +160,6 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ── Charts ─────────────────────────────────────────────────────────────────────
 trend_df = analytics.get_weekly_trend_data()
 
-# Filter to selected weeks
-if weeks_to_show < 8:
-    trend_df = trend_df.groupby("persona").apply(
-        lambda x: x.tail(weeks_to_show)
-    ).reset_index(drop=True)
-
-# Persona name mapping for chart labels
 # detect persona column safely
 if "persona" in trend_df.columns:
     persona_col = "persona"
@@ -175,12 +168,23 @@ elif "Persona" in trend_df.columns:
 else:
     persona_col = None
 
+# Filter to selected weeks
+if persona_col and weeks_to_show < 8:
+    trend_df = (
+        trend_df.groupby(persona_col, group_keys=False)
+        .apply(lambda x: x.tail(weeks_to_show))
+        .reset_index(drop=True)
+    )
+
+# Persona name mapping for chart labels
 if persona_col:
     trend_df["Persona"] = trend_df[persona_col].map({
         "agency_owner": "Agency Owner",
         "startup_marketer": "Startup Marketer",
         "solo_creator": "Solo Creator",
     })
+else:
+    trend_df["Persona"] = "Unknown"
 
 
 color_map = {

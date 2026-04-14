@@ -181,10 +181,7 @@ if persona_col:
         "startup_marketer": "Startup Marketer",
         "solo_creator": "Solo Creator",
     })
-    "agency_owner": "Agency Owner",
-    "startup_marketer": "Startup Marketer",
-    "solo_creator": "Solo Creator",
-})
+
 
 color_map = {
     "Agency Owner": "#6366f1",

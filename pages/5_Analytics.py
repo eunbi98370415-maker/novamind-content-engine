@@ -179,7 +179,7 @@ if weeks_to_show < 8:
     )
 
 # Persona name mapping for chart labels
-trend_df["Persona"] = trend_df["persona"].replace({
+trend_df["Persona"] = persona_series.replace({
     "agency_owner": "Agency Owner",
     "startup_marketer": "Startup Marketer",
     "solo_creator": "Solo Creator",

@@ -167,7 +167,20 @@ if weeks_to_show < 8:
     ).reset_index(drop=True)
 
 # Persona name mapping for chart labels
-trend_df["Persona"] = trend_df["persona"].map({
+# detect persona column safely
+if "persona" in trend_df.columns:
+    persona_col = "persona"
+elif "Persona" in trend_df.columns:
+    persona_col = "Persona"
+else:
+    persona_col = None
+
+if persona_col:
+    trend_df["Persona"] = trend_df[persona_col].map({
+        "agency_owner": "Agency Owner",
+        "startup_marketer": "Startup Marketer",
+        "solo_creator": "Solo Creator",
+    })
     "agency_owner": "Agency Owner",
     "startup_marketer": "Startup Marketer",
     "solo_creator": "Solo Creator",

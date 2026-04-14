@@ -158,6 +158,27 @@ with kpi_cols[3]:
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ── Charts ─────────────────────────────────────────────────────────────────────
+# ── Charts ─────────────────────────────────────────────────────────────────────
+trend_df = analytics.get_weekly_trend_data()
+
+# choose persona source safely
+if "persona" in trend_df.columns:
+    persona_series = trend_df["persona"]
+elif "Persona" in trend_df.columns:
+    persona_series = trend_df["Persona"]
+else:
+    persona_series = pd.Series(["Unknown"] * len(trend_df), index=trend_df.index)
+
+# Filter to selected weeks
+if weeks_to_show < 8:
+    trend_df = (
+        trend_df.assign(_persona=persona_series)
+        .groupby("_persona", group_keys=False)
+        .apply(lambda x: x.tail(weeks_to_show))
+        .reset_index(drop=True)
+    )
+
+# rebuild persona series after filtering
 if "persona" in trend_df.columns:
     persona_series = trend_df["persona"]
 elif "Persona" in trend_df.columns:
@@ -178,6 +199,8 @@ trend_df["Persona"] = persona_series.replace({
     "Unknown": "Unknown"
 })
 
+if "_persona" in trend_df.columns:
+    trend_df = trend_df.drop(columns=["_persona"])
 
 color_map = {
     "Agency Owner": "#6366f1",

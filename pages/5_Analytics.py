@@ -158,32 +158,24 @@ with kpi_cols[3]:
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ── Charts ─────────────────────────────────────────────────────────────────────
-trend_df = analytics.get_weekly_trend_data()
-
-# normalize columns
-trend_df.columns = [str(col).strip().lower() for col in trend_df.columns]
-
-# make sure required columns exist
-if "week" not in trend_df.columns:
-    trend_df["week"] = range(1, len(trend_df) + 1)
-
-if "persona" not in trend_df.columns:
-    trend_df["persona"] = "unknown"
-
-# Filter to selected weeks
-if weeks_to_show < 8:
-    trend_df = (
-        trend_df.groupby("persona", group_keys=False)
-        .apply(lambda x: x.tail(weeks_to_show))
-        .reset_index(drop=True)
-    )
+if "persona" in trend_df.columns:
+    persona_series = trend_df["persona"]
+elif "Persona" in trend_df.columns:
+    persona_series = trend_df["Persona"]
+elif "_persona" in trend_df.columns:
+    persona_series = trend_df["_persona"]
+else:
+    persona_series = pd.Series(["Unknown"] * len(trend_df), index=trend_df.index)
 
 # Persona name mapping for chart labels
 trend_df["Persona"] = persona_series.replace({
     "agency_owner": "Agency Owner",
     "startup_marketer": "Startup Marketer",
     "solo_creator": "Solo Creator",
-    "unknown": "Unknown",
+    "Agency Owner": "Agency Owner",
+    "Startup Marketer": "Startup Marketer",
+    "Solo Creator": "Solo Creator",
+    "Unknown": "Unknown"
 })
 
 

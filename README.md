@@ -33,7 +33,7 @@ Everything is saved to a local SQLite database and available for download in Mar
 ### 1. Clone or navigate to the project
 
 ```bash
-cd /Users/seohyunkang/novamind-content-automation
+cd novamind-content-engine
 ```
 
 ### 2. Create a virtual environment (recommended)

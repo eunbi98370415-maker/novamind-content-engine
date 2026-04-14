@@ -1,1 +1,0 @@
-# NovaMind db package

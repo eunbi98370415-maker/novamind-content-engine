@@ -1,0 +1,98 @@
+[
+  {
+    "id": "agency_owner",
+    "name": "Creative Agency Owner",
+    "icon": "🏢",
+    "color": "#6366f1",
+    "tagline": "Scale without the headcount",
+    "profile": "Founder or Creative Director at a small creative agency (3–10 people). Juggles client delivery and business development simultaneously.",
+    "demographics": {
+      "company_size": "3–10 employees",
+      "industry": "Creative / Design / Marketing Agency",
+      "role": "Founder, Creative Director, or Agency Owner"
+    },
+    "goals": [
+      "Generate consistent inbound leads without cold outreach",
+      "Scale content marketing output without hiring",
+      "Repurpose existing assets across channels efficiently"
+    ],
+    "pain_points": [
+      "Writes good content but never reuses it",
+      "No time to create multiple campaign variants",
+      "Manual newsletter creation eats into billable hours",
+      "Small team can't keep up with distribution demands"
+    ],
+    "messaging_angle": "Show how one blog post can automatically become multiple client acquisition campaigns.",
+    "cta_style": "Professional and ROI-oriented. Examples: 'See how it works for agencies →', 'Get your free workflow audit →'",
+    "preferred_tone": "Peer-to-peer, strategic, respects expertise and time",
+    "content_hooks": [
+      "Turn your best content into a lead machine",
+      "One post. Five campaigns. Zero extra hours.",
+      "Your team writes once. NovaMind distributes everywhere."
+    ]
+  },
+  {
+    "id": "startup_marketer",
+    "name": "Marketing Manager (Startup)",
+    "icon": "🚀",
+    "color": "#0ea5e9",
+    "tagline": "Personalize at scale, optimize fast",
+    "profile": "Marketing Manager or Growth Manager at a 10–50 person startup. Owns email performance, runs campaigns, reports to leadership.",
+    "demographics": {
+      "company_size": "10–50 employees",
+      "industry": "SaaS / Tech Startup",
+      "role": "Marketing Manager, Growth Manager, or Head of Marketing"
+    },
+    "goals": [
+      "Improve open rates and CTR across all campaigns",
+      "Personalize campaigns by audience segment",
+      "Optimize funnel conversion from email to signup"
+    ],
+    "pain_points": [
+      "Sends same email to entire list regardless of segment",
+      "Low engagement from generic broadcast blasts",
+      "Manual segmentation is too slow to scale",
+      "Hard to personalize without a big engineering team"
+    ],
+    "messaging_angle": "Show how one content asset becomes segmented, personalized campaigns automatically.",
+    "cta_style": "Data-driven and action-oriented. Examples: 'Boost your CTR today →', 'Start your free 14-day trial →'",
+    "preferred_tone": "Direct, performance-focused, metric-aware",
+    "content_hooks": [
+      "Stop sending the same email to everyone",
+      "Segment smarter. Convert faster.",
+      "Your best campaign starts with one blog post."
+    ]
+  },
+  {
+    "id": "solo_creator",
+    "name": "Freelancer / Solo Creator",
+    "icon": "✏️",
+    "color": "#10b981",
+    "tagline": "Do more with less — and stay consistent",
+    "profile": "Independent creator, freelance marketer, or designer working solo. Wears every hat, limited time for marketing.",
+    "demographics": {
+      "company_size": "1 person",
+      "industry": "Freelance / Creator Economy",
+      "role": "Freelance Designer, Content Creator, or Independent Marketer"
+    },
+    "goals": [
+      "Save time on content creation and repurposing",
+      "Stay consistent with newsletters without burning out",
+      "Grow audience steadily while focusing on client work"
+    ],
+    "pain_points": [
+      "Limited time for content production each week",
+      "Hard to convert blog posts into compelling emails",
+      "No automation system — everything is manual",
+      "Inconsistent publishing schedule hurts growth"
+    ],
+    "messaging_angle": "Show how AI instantly generates multiple emails from one blog post.",
+    "cta_style": "Friendly, efficiency-focused. Examples: 'Try it free — no credit card →', 'See how much time you\\'ll save →'",
+    "preferred_tone": "Casual, empathetic, efficiency-obsessed",
+    "content_hooks": [
+      "You wrote the blog. Let AI do the rest.",
+      "One post → a full week of content.",
+      "Stop starting from scratch every Monday."
+    ]
+  }
+]

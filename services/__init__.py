@@ -1,0 +1,1 @@
+# NovaMind services package

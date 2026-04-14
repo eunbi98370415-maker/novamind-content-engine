@@ -1,0 +1,64 @@
+id,email,first_name,last_name,company,job_title,persona,lifecycle_stage,lead_status,segment,country,signup_date,last_engaged
+1,sarah.chen@pixelandco.com,Sarah,Chen,Pixel & Co,Creative Director,agency_owner,MQL,qualified,agency_owner,US,2025-03-12,2026-03-28
+2,james.okafor@boldstudio.co.uk,James,Okafor,Bold Studio,Agency Owner,agency_owner,SQL,qualified,agency_owner,UK,2025-04-05,2026-04-01
+3,emily.morrison@craftagency.com,Emily,Morrison,Craft Agency,Founder,agency_owner,customer,converted,agency_owner,Canada,2025-01-18,2026-04-10
+4,marcus.tran@theloopcreative.com,Marcus,Tran,The Loop Creative,Design Lead,agency_owner,lead,contacted,agency_owner,US,2025-06-22,2026-02-14
+5,olivia.patel@studioforma.com,Olivia,Patel,Studio Forma,Creative Director,agency_owner,MQL,nurturing,agency_owner,Australia,2025-02-09,2026-03-31
+6,daniel.nguyen@pixelandco.com,Daniel,Nguyen,Pixel & Co,Founder,agency_owner,SQL,qualified,agency_owner,US,2025-05-14,2026-04-08
+7,amira.hassan@boldstudio.co.uk,Amira,Hassan,Bold Studio,Agency Owner,agency_owner,lead,new,agency_owner,UK,2025-08-03,2026-01-22
+8,liam.kowalski@craftagency.com,Liam,Kowalski,Craft Agency,Creative Director,agency_owner,MQL,contacted,agency_owner,Canada,2025-03-27,2026-03-15
+9,priya.sharma@designhive.com,Priya,Sharma,Design Hive,Founder,agency_owner,subscriber,new,agency_owner,Australia,2025-07-11,2026-02-28
+10,carlos.mendez@forwardagency.com,Carlos,Mendez,Forward Agency,Design Lead,agency_owner,lead,nurturing,agency_owner,US,2025-04-19,2026-03-22
+11,zoe.williams@theloopcreative.com,Zoe,Williams,The Loop Creative,Creative Director,agency_owner,customer,converted,agency_owner,UK,2025-01-30,2026-04-09
+12,noah.kim@studioforma.com,Noah,Kim,Studio Forma,Agency Owner,agency_owner,MQL,qualified,agency_owner,US,2025-09-07,2026-04-02
+13,isabella.fernandez@craftagency.com,Isabella,Fernandez,Craft Agency,Founder,agency_owner,SQL,qualified,agency_owner,Canada,2025-02-23,2026-03-18
+14,ethan.brooks@designhive.com,Ethan,Brooks,Design Hive,Creative Director,agency_owner,lead,contacted,agency_owner,Australia,2025-05-31,2026-02-10
+15,aisha.robinson@pixelandco.com,Aisha,Robinson,Pixel & Co,Design Lead,agency_owner,subscriber,new,agency_owner,US,2025-08-16,2026-01-05
+16,felix.wagner@boldstudio.de,Felix,Wagner,Bold Studio,Agency Owner,agency_owner,MQL,nurturing,agency_owner,UK,2025-03-04,2026-03-29
+17,nina.castillo@theloopcreative.com,Nina,Castillo,The Loop Creative,Founder,agency_owner,SQL,qualified,agency_owner,US,2025-06-08,2026-04-06
+18,oliver.james@forwardagency.com,Oliver,James,Forward Agency,Creative Director,agency_owner,lead,new,agency_owner,Canada,2025-10-14,2026-02-20
+19,maya.patel@studioforma.com,Maya,Patel,Studio Forma,Design Lead,agency_owner,MQL,contacted,agency_owner,Australia,2025-04-27,2026-03-07
+20,ryan.oconnor@craftagency.com,Ryan,O'Connor,Craft Agency,Agency Owner,agency_owner,customer,converted,agency_owner,US,2025-02-15,2026-04-11
+21,jasmine.lee@designhive.com,Jasmine,Lee,Design Hive,Founder,agency_owner,lead,nurturing,agency_owner,UK,2025-07-29,2026-03-03
+22,alex.turner@launchpadai.com,Alex,Turner,Launchpad AI,Marketing Manager,startup_marketer,MQL,qualified,startup_marketer,US,2025-03-08,2026-04-01
+23,priya.nair@horizonsaas.com,Priya,Nair,Horizon SaaS,Growth Manager,startup_marketer,SQL,qualified,startup_marketer,US,2025-04-22,2026-04-08
+24,michael.zhao@fluxanalytics.io,Michael,Zhao,Flux Analytics,Head of Marketing,startup_marketer,lead,contacted,startup_marketer,Canada,2025-05-15,2026-02-19
+25,sofia.anders@vaulttech.com,Sofia,Anders,Vault Tech,Content Lead,startup_marketer,MQL,nurturing,startup_marketer,UK,2025-01-27,2026-03-25
+26,james.obi@launchpadai.com,James,Obi,Launchpad AI,Marketing Manager,startup_marketer,SQL,qualified,startup_marketer,US,2025-06-11,2026-04-05
+27,claire.dumont@horizonsaas.com,Claire,Dumont,Horizon SaaS,Growth Manager,startup_marketer,customer,converted,startup_marketer,Canada,2025-02-03,2026-04-10
+28,ravi.krishnan@fluxanalytics.io,Ravi,Krishnan,Flux Analytics,Head of Marketing,startup_marketer,lead,new,startup_marketer,Australia,2025-08-19,2026-01-30
+29,emma.larsson@vaulttech.com,Emma,Larsson,Vault Tech,Content Lead,startup_marketer,MQL,contacted,startup_marketer,UK,2025-03-30,2026-03-12
+30,david.park@meridianapp.com,David,Park,Meridian App,Marketing Manager,startup_marketer,SQL,qualified,startup_marketer,US,2025-07-04,2026-04-03
+31,fatima.al-rashid@launchpadai.com,Fatima,Al-Rashid,Launchpad AI,Growth Manager,startup_marketer,MQL,nurturing,startup_marketer,UK,2025-04-16,2026-03-20
+32,ben.okafor@horizonsaas.com,Ben,Okafor,Horizon SaaS,Head of Marketing,startup_marketer,lead,contacted,startup_marketer,US,2025-09-02,2026-02-08
+33,yuki.tanaka@fluxanalytics.io,Yuki,Tanaka,Flux Analytics,Content Lead,startup_marketer,SQL,qualified,startup_marketer,Canada,2025-05-28,2026-03-30
+34,lisa.chen@meridianapp.com,Lisa,Chen,Meridian App,Marketing Manager,startup_marketer,customer,converted,startup_marketer,Australia,2025-01-14,2026-04-07
+35,tom.eriksson@vaulttech.com,Tom,Eriksson,Vault Tech,Growth Manager,startup_marketer,lead,new,startup_marketer,UK,2025-10-07,2026-01-18
+36,nadia.petrov@launchpadai.com,Nadia,Petrov,Launchpad AI,Head of Marketing,startup_marketer,MQL,qualified,startup_marketer,US,2025-02-20,2026-03-26
+37,carlos.reyes@horizonsaas.com,Carlos,Reyes,Horizon SaaS,Content Lead,startup_marketer,SQL,qualified,startup_marketer,Canada,2025-06-25,2026-04-04
+38,anna.kowalska@fluxanalytics.io,Anna,Kowalska,Flux Analytics,Marketing Manager,startup_marketer,lead,nurturing,startup_marketer,UK,2025-03-17,2026-02-28
+39,marcus.obinna@meridianapp.com,Marcus,Obinna,Meridian App,Growth Manager,startup_marketer,MQL,contacted,startup_marketer,US,2025-08-08,2026-03-14
+40,helen.zhang@vaulttech.com,Helen,Zhang,Vault Tech,Head of Marketing,startup_marketer,subscriber,new,startup_marketer,Australia,2025-11-01,2026-01-25
+41,jessica.kwon@vaulttech.com,Jessica,Kwon,Vault Tech,Content Lead,startup_marketer,customer,converted,startup_marketer,US,2025-04-09,2026-04-09
+42,sam.bishop@selfmade.studio,Sam,Bishop,Launchpad AI,Marketing Manager,startup_marketer,lead,new,startup_marketer,US,2025-05-03,2026-03-18
+43,layla.ibrahim@layladesigns.com,Layla,Ibrahim,Layla Designs,Content Creator,solo_creator,lead,contacted,solo_creator,UK,2025-03-21,2026-04-01
+44,tom.nguyen@tomcreates.co,Tom,Nguyen,Tom Creates,Independent Marketer,solo_creator,MQL,qualified,solo_creator,US,2025-04-14,2026-04-06
+45,sophie.martin@,Sophie,Martin,,Brand Strategist,solo_creator,subscriber,new,solo_creator,Canada,2025-07-18,2026-02-12
+46,kenji.yamamoto@kenjicreative.com,Kenji,Yamamoto,Kenji Creative,Freelance Designer,solo_creator,lead,nurturing,solo_creator,Australia,2025-02-28,2026-03-22
+47,aaliyah.jones@aaliyahwrites.com,Aaliyah,Jones,Aaliyah Writes,Content Creator,solo_creator,MQL,qualified,solo_creator,US,2025-06-05,2026-04-04
+48,finn.o-brien@finncopy.ie,Finn,O'Brien,Finn Copy,Independent Marketer,solo_creator,subscriber,new,solo_creator,UK,2025-08-24,2026-01-15
+49,diana.rosario@dianabrand.co,Diana,Rosario,Diana Brand Co,Brand Strategist,solo_creator,lead,contacted,solo_creator,US,2025-04-01,2026-03-09
+50,wei.liu@weiliu.design,Wei,Liu,Wei Liu Design,Freelance Designer,solo_creator,MQL,nurturing,solo_creator,Canada,2025-01-22,2026-03-28
+51,grace.adeyemi@graceadeyemi.com,Grace,Adeyemi,Grace Adeyemi,Content Creator,solo_creator,subscriber,new,solo_creator,UK,2025-09-13,2026-02-05
+52,ethan.walsh@ethanwalshco.com,Ethan,Walsh,Ethan Walsh Co,Independent Marketer,solo_creator,lead,qualified,solo_creator,Australia,2025-05-26,2026-03-31
+53,mia.hoffman@miahoffman.studio,Mia,Hoffman,Mia Hoffman Studio,Freelance Designer,solo_creator,MQL,contacted,solo_creator,US,2025-03-07,2026-04-08
+54,joel.santos@joelcreates.com,Joel,Santos,Joel Creates,Brand Strategist,solo_creator,subscriber,new,solo_creator,Canada,2025-10-19,2026-01-28
+55,zara.ali@zaraalidesign.com,Zara,Ali,Zara Ali Design,Content Creator,solo_creator,lead,nurturing,solo_creator,UK,2025-06-30,2026-03-16
+56,henry.brooks@henrybcopy.com,Henry,Brooks,Henry B Copy,Independent Marketer,solo_creator,MQL,qualified,solo_creator,US,2025-02-11,2026-04-02
+57,luna.garcia@lunagarcia.co,Luna,Garcia,,Brand Strategist,solo_creator,subscriber,new,solo_creator,Canada,2025-08-07,2026-02-19
+58,derek.osei@derekosei.studio,Derek,Osei,Derek Osei Studio,Freelance Designer,solo_creator,lead,contacted,solo_creator,US,2025-04-23,2026-03-06
+59,isabelle.dupont@isabelledup.fr,Isabelle,Dupont,Isabelle Dupont,Content Creator,solo_creator,MQL,nurturing,solo_creator,Canada,2025-07-15,2026-03-24
+60,ryan.carter@ryancartermk.com,Ryan,Carter,Ryan Carter MK,Independent Marketer,solo_creator,subscriber,new,solo_creator,Australia,2025-11-08,2026-01-10
+61,amara.diallo@amaradiallo.com,Amara,Diallo,Amara Diallo,Brand Strategist,solo_creator,lead,qualified,solo_creator,UK,2025-05-10,2026-04-05
+62,jake.morrison@jakemcreative.com,Jake,Morrison,Jake M Creative,Freelance Designer,solo_creator,MQL,qualified,solo_creator,US,2025-03-03,2026-04-11
+63,nina.okonkwo@ninaokonkwo.design,Nina,Okonkwo,Nina Okonkwo Design,Content Creator,solo_creator,subscriber,new,solo_creator,UK,2025-09-28,2026-02-22

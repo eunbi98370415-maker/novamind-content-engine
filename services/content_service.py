@@ -139,7 +139,23 @@ Return ONLY valid JSON in this exact structure:
             "Download Guide":     "Download the free repurposing guide →",
         }
         cta_suggestion = cta_templates.get(cta_type, "Start free — no credit card required →")
-
+        persona_must_include = {
+            "agency_owner": """
+Must make the email feel written for an agency owner.
+Include language about client work, ROI, team capacity, or delivering results for multiple clients.
+The examples and benefits should sound like they are for someone running an agency.
+""",
+            "startup_marketer": """
+Must make the email feel written for a startup marketer.
+Include language about growth, campaign performance, testing, conversion, and reporting results.
+The examples and benefits should sound metrics-driven and execution-focused.
+""",
+            "solo_creator": """
+Must make the email feel written for a solo creator.
+Include language about saving time, staying consistent, reducing workload, and simplifying content creation.
+The examples and benefits should sound personal, practical, and lightweight.
+""",
+        }
         prompt = f"""Write a persona-specific marketing email for NovaMind.
 
 ─── SOURCE CONTENT ───────────────────────────────────────
@@ -159,6 +175,9 @@ Messaging angle: {persona.get('messaging_angle', '')}
 
 ─── DIFFERENTIATION BRIEF ────────────────────────────────
 {differentiator_notes.get(persona_id, '')}
+
+─── PERSONA-SPECIFIC REQUIREMENT ─────────────────────────
+{persona_must_include.get(persona_id, '')}
 
 ─── TONE & CTA ───────────────────────────────────────────
 Overall tone: {tone}
@@ -201,6 +220,8 @@ CTA line (final line, standalone):
 ✓ Short paragraphs (2 sentences max before a break)
 ✓ Sound like a knowledgeable colleague, not a newsletter bot
 ✓ The subject line must hook THIS specific persona — not a generic audience
+✓ The body must feel obviously different for each persona, even if the source blog is the same
+✓ Use persona-specific vocabulary and examples that would not fit the other personas
 
 Return ONLY valid JSON (no markdown fences, no commentary):
 {{
